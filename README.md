@@ -7,7 +7,7 @@ Github
 https://github.com/NicolasGaffe/STELLR.git
 
 Site Web Stellr
-nicolasgaffe.github.io/STELLR/
+https://nicolasgaffe.github.io/STELLR/
 
 -- Adresse IP Des Serveurs --
 
