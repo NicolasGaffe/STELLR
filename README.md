@@ -27,5 +27,8 @@ Serveur GLPI
 Serveur Frontend 
 ssh -i Apache_key.pem azureuser@20.251.146.240
 
+Serveur Backend
+ssh -i BackendSTELLR_key.pem azureuser@20.251.146.138
+
 Serveur GLPI
 ssh -i GLPI_key.pem azureuser@68.221.160.148
