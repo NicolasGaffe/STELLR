@@ -11,8 +11,11 @@ https://nicolasgaffe.github.io/STELLR/
 
 -- Adresse IP Des Serveurs --
 
-Serveur Apache
+Serveur Frontend
 20.251.146.240
+
+Serveur Backend
+20.251.146.138
 
 Serveur GLPI
 68.221.160.148
@@ -21,7 +24,7 @@ Serveur GLPI
 
 /!\ Télécharger la clé .pem avant lancer la commande /!\
 
-Serveur Apache 
+Serveur Frontend 
 ssh -i Apache_key.pem azureuser@20.251.146.240
 
 Serveur GLPI
