@@ -219,8 +219,50 @@ body {
     text-decoration: underline;
 }
 
+.sizes {
+    display: flex;
+    flex-direction: row; /* 👈 force horizontal */
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
 
+.size {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    border: 1px solid #444;
+    background: transparent;
+    color: white;
+}
 
+.add-to-cart {
+    width: 100%;
+    max-width: 250px;
+    background: white;
+    color: black;
+    border: none;
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
 
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 
+    width: 100%; /* 👈 important pour rester dans la colonne */
+}
+
+.shop-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    align-items: start; /* 👈 empêche les éléments de s'étirer bizarrement */
+}

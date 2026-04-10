@@ -3,92 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact – STELLR</title>
-
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: black;
-            color: white;
-            font-family: Arial, sans-serif;
-        }
-
-        h1 {
-            padding: 60px;
-            font-size: 4rem;
-            letter-spacing: 6px;
-        }
-
-        .contact-form {
-            width: 80%;
-            margin: auto;
-        }
-
-        .row {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 25px;
-        }
-
-        input, textarea {
-            width: 100%;
-            background: black;
-            border: 1.5px solid #444;
-            padding: 18px;
-            font-size: 1.1rem;
-            color: white;
-            border-radius: 4px;
-        }
-
-        textarea {
-            height: 180px;
-            resize: none;
-        }
-
-        .btn {
-            margin-top: 20px;
-            background: #6427C7; 
-            width: 160px;
-            padding: 18px;
-            border: none;
-            color: white;
-            font-size: 1.2rem;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: 0.3s ease;
-        }
-
-        .btn:hover {
-            background: #7A42E4;
-        }
-
-        @media (max-width: 800px) {
-            .row {
-                flex-direction: column;
-            }
-        }
-    </style>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<h1>CONTACT</h1>
-
-<div class="contact-form">
-
-    <div class="row">
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email *" required>
-    </div>
-
-    <input type="text" placeholder="Phone number">
-
-    <textarea placeholder="Comment"></textarea>
-
-    <button class="btn">Send</button>
-
-</div>
-
+    
 </body>
 </html>
+
+</section>
+<header class="navbar">
+    <div class="logo">STELLR</div>
+
+    <nav class="menu">
+        <a href="index.html">HOME</a>
+        <a href="shop.html">SHOP</a>
+        <a href="account.html">ACCOUNT</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+
+    <div class="icons">
+        <span>🛒</span>
+        <span>👤</span>
+    </div>
+</header>
+
+<section class="form-section">
+
+    <h1 class="form-title">CONTACT</h1>
+    <p style="text-align:center; color:#aaa; margin-top:-30px; margin-bottom:40px;">
+        Une question ? On vous répond sous 24h.
+    </p>
+
+    <div style="display:flex; justify-content:center; gap:80px; flex-wrap:wrap;">
+
+        <!-- FORMULAIRE -->
+        <form class="form-box">
+
+            <label>Prénom</label>
+            <input type="text">
+
+            <label>Nom</label>
+            <input type="text">
+
+            <label>Email *</label>
+            <input type="email">
+
+            <label>Téléphone (optionnel)</label>
+            <input type="text">
+
+            <label>Message</label>
+            <input type="text" style="height:100px;">
+
+            <button class="submit-btn">ENVOYER</button>
+
+        </form>
+
+        
+        <div style="max-width:300px;">
+
+            <h4 style="color:#777; letter-spacing:2px;">EMAIL</h4>
+            <p>contact@stellr.fr</p>
+
+            <h4 style="color:#777; letter-spacing:2px; margin-top:25px;">LIVRAISON</h4>
+            <p>Expédition sous 2–4 jours ouvrés.</p>
+            <p>Livraison offerte dès 80 €.</p>
+
+            <h4 style="color:#777; letter-spacing:2px; margin-top:25px;">RETOURS</h4>
+            <p>Retours gratuits sous 14 jours.</p>
+            <p>Échange ou remboursement.</p>
+
+            <h4 style="color:#777; letter-spacing:2px; margin-top:25px;">RÉSEAUX SOCIAUX</h4>
+            <p>@stellr.official</p>
+
+        </div>
+
+    </div>
+
+</section>
